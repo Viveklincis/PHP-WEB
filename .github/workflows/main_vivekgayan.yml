@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'vivekgayan'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0A226E19AC1A468CA630F13DD6360A6F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8A7ADF92F5484A9F99A5740A47D87613 }}
           package: .
