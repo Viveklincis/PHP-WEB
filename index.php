@@ -2,6 +2,13 @@
 session_start();
 $connect = mysqli_connect("vivekweb.mysql.database.azure.com", "vivek", "Gayan@29120402", "vivek");
 
+// Check connection
+if ($mysqli -> connect_errno) {
+  echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+  exit();
+}
+?>
+
 if(isset($_POST["add_to_cart"]))
 {
 	if(isset($_SESSION["shopping_cart"]))
