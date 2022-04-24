@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$mysqli = new mysqli("vivekweb.mysql.database.azure.com", "vivek", "Gayan@29120402", "pavidb");
+$mysqli = new mysqli("sqlsever.mysql.database.azure.com", "vivek", "Gayan@29120402", "pavidb");
 
 // Check connection
 if ($mysqli -> connect_errno) {
